@@ -1,0 +1,35 @@
+{
+  "name": "setdeck",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "shared",
+    "server",
+    "web",
+    "mock-live",
+    "desktop"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w server & npm run dev -w web & wait",
+    "test": "vitest run",
+    "lint": "eslint . && npm run typecheck --workspaces --if-present",
+    "probe": "npm run probe -w server --",
+    "dev:mock": "LIVE_PORT=12000 REPLY_PORT=12001 HTTP_PORT=7310 sh -c 'npm run dev -w mock-live & npm run dev -w server & npm run dev -w web & wait'",
+    "test:e2e": "playwright test",
+    "app": "npm run build -w web && npm run build -w desktop"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "tempo": 120,
+  "signature": [
+    4,
+    4
+  ],
+  "cuePoints": [
+    {
+      "name": "Glass Harbor",
+      "time": 0
+    },
+    {
+      "name": "Verse 1",
+      "time": 16
+    },
+    {
+      "name": "Chorus",
+      "time": 48
+    },
+    {
+      "name": "Verse 2",
+      "time": 80
+    },
+    {
+      "name": "Chorus 2",
+      "time": 112
+    },
+    {
+      "name": "Bridge",
+      "time": 144
+    },
+    {
+      "name": "Outro",
+      "time": 160
+    },
+    {
+      "name": "Slow Satellite",
+      "time": 192
+    },
+    {
+      "name": "Intro",
+      "time": 200
+    },
+    {
+      "name": "Verse",
+      "time": 216
+    },
+    {
+      "name": "Chorus",
+      "time": 248
+    },
+    {
+      "name": "Solo",
+      "time": 280
+    },
+    {
+      "name": "Last Chorus",
+      "time": 312
+    },
+    {
+      "name": "Paper Lanterns",
+      "time": 352
+    },
+    {
+      "name": "Verse 1",
+      "time": 368
+    },
+    {
+      "name": "Pre-Chorus",
+      "time": 392
+    },
+    {
+      "name": "Chorus",
+      "time": 408
+    },
+    {
+      "name": "Breakdown",
+      "time": 440
+    },
+    {
+      "name": "Outro",
+      "time": 456
+    }
+  ],
+  "songLength": 488,
+  "tracks": [
+    {
+      "name": "RHYTHM",
+      "color": 16725558,
+      "group": true
+    },
+    {
+      "name": "Drums",
+      "color": 16725558,
+      "parent": 0
+    },
+    {
+      "name": "Perc",
+      "color": 16749117,
+      "parent": 0
+    },
+    {
+      "name": "Bass",
+      "color": 4031359,
+      "parent": 0
+    },
+    {
+      "name": "MUSIC",
+      "color": 2806248,
+      "group": true
+    },
+    {
+      "name": "Keys Pad",
+      "color": 2806248,
+      "parent": 4
+    },
+    {
+      "name": "Guitars",
+      "color": 10976255,
+      "parent": 4
+    },
+    {
+      "name": "Synth",
+      "color": 5082623,
+      "parent": 4
+    },
+    {
+      "name": "VOCALS",
+      "color": 16762173,
+      "group": true
+    },
+    {
+      "name": "Vox Lead",
+      "color": 16762173,
+      "parent": 8
+    },
+    {
+      "name": "Vox BG",
+      "color": 16736184,
+      "parent": 8
+    },
+    {
+      "name": "FX",
+      "color": 9145227
+    },
+    {
+      "name": "Click",
+      "color": 8421504
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Glass Harbor",
+      "tempo": 120
+    },
+    {
+      "name": "Verse 1"
+    },
+    {
+      "name": "Chorus"
+    },
+    {
+      "name": "Verse 2"
+    },
+    {
+      "name": "Chorus 2"
+    },
+    {
+      "name": "Bridge"
+    },
+    {
+      "name": "Outro"
+    },
+    {
+      "name": "",
+      "empty": true
+    },
+    {
+      "name": "Slow Satellite",
+      "tempo": 84
+    },
+    {
+      "name": "Verse"
+    },
+    {
+      "name": "Chorus"
+    },
+    {
+      "name": "Solo"
+    },
+    {
+      "name": "Last Chorus"
+    },
+    {
+      "name": "",
+      "empty": true
+    },
+    {
+      "name": "PAPER LANTERNS",
+      "tempo": 96,
+      "empty": true
+    },
+    {
+      "name": "Intro"
+    },
+    {
+      "name": "Verse 1"
+    },
+    {
+      "name": "Pre-Chorus"
+    },
+    {
+      "name": "Chorus"
+    },
+    {
+      "name": "Breakdown"
+    },
+    {
+      "name": "Outro"
+    }
+  ]
+}
